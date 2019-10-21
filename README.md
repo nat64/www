@@ -6,13 +6,18 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### dns64 servers
 
-dns1: 2403:fdc0::6464
-dns2: 2403:fdc0::6666
+Set your DNS resolvers to use the following DNS servers:
+- 2403:fdc0::6464
+- 2403:fdc0::6666
+
+These servers will return A/AAAA using the NAT64 prefix **2403:780:fe00:7175::/96**
 
 Alternatively, you can use [Google's Public DNS64 service](https://developers.google.com/speed/public-dns/docs/dns64)
-
 - 2001:4860:4860::6464
 - 2001:4860:4860::64
+
+https://tools.ietf.org/html/rfc6146)Google's DNS64 servers use the WKP (Well Known Prefix) **64:ff9c::/96** (per [RFC6146](
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
