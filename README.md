@@ -1,4 +1,4 @@
-## DNS64/NAT64 Service
+# DNS64/NAT64 Service
 
 This describes a pubic DNS64/NAT64 service for access across IXP (Internet exchange points).
 
@@ -21,4 +21,6 @@ Google's DNS64 servers use the WKP (Well Known Prefix) **64:ff9c::/96**
 ```markdown
 ![Image](src)
 ```
+
+<andrew@aussie.net>
 
