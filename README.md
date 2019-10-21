@@ -10,7 +10,7 @@ Set your DNS resolvers to use the following DNS servers:
 - 2403:fdc0::6464
 - 2403:fdc0::6666
 
-These servers will return A/AAAA using the NAT64 prefix **2403:780:fe00:7175::/96**
+These servers will return A/AAAA using the NAT64 prefix **2403:780:fe00:7175::/96**. These servers are **NOT** to be used for IPv4-only lookups.
 
 Alternatively, you can use [Google's Public DNS64 service](https://developers.google.com/speed/public-dns/docs/dns64)
 - 2001:4860:4860::6464
@@ -18,7 +18,7 @@ Alternatively, you can use [Google's Public DNS64 service](https://developers.go
 
 Google's DNS64 servers use the WKP (Well Known Prefix) **64:ff9c::/96**
 
-### Routing
+### Routing to NAT64 servers
 
 The prefixes used for NAT64 translation tbat are announced by AS7175 over the IX fabric are:
 - NSW-IX: 2403:780:fe00::/40
