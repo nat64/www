@@ -1,10 +1,18 @@
-## Welcome to GitHub Pages
+## dns64/nat64 Service
 
 You can use the [editor on GitHub](https://github.com/nat64/www/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### dns64 servers
+
+dns1: 2403:fdc0::6464
+dns2: 2403:fdc0::6666
+
+Alternatively, you can use [Google's Public DNS64 service](https://developers.google.com/speed/public-dns/docs/dns64)
+
+- 2001:4860:4860::6464
+- 2001:4860:4860::64
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
