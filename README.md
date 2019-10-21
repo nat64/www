@@ -26,7 +26,9 @@ The prefixes used for NAT64 translation tbat are announced by AS7175 over the IX
 - SFMIX: 2403:fdc0:100::/40
 - FCIX: 2403:fdc0:100::/40
 
-The WKP 64:ff9c::/96 is also announced to the route servers.
+The WKP 64:ff9c::/96 is also announced by AS7175 to the route servers.
+
+
 
 ```markdown
 <andrew@aussie.net>
