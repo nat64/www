@@ -1,4 +1,4 @@
-# DNS64/NAT64 Service
+# DNS64/NAT64 Service - Beta
 
 This document describes a pubic DNS64/NAT64 service for access across IXP (Internet exchange points).
 
